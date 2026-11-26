@@ -27,7 +27,7 @@ A Notes panel for the Herdr app. A Notes button sits at the top right of the tab
 
 ## Built from
 
-- `mods/notes/`: `main.js` (the view, role `toggle` draws the tab-bar button), `core.js` (pure note logic, a copy of the terminal plugin's `src/core.mjs`), `mod.json` (`place: none`, focusable, four palette entries), 14 small SVG icons.
+- `mods/notes/`: `main.js` (the view, role `toggle` draws the tab-bar button), `core.js` (pure note logic, a copy of the terminal plugin's `src/core.mjs`), `mod.json` (`place: none`, focusable, four palette entries), 13 small SVG icons.
 - `keys.json`: `alt-n` toggles the panel. Merge it into the person's keys; ask before replacing `alt-n`.
 - Layout: add this node to the row that holds the work area, outside any stack, next to the Files/Changes panel:
 
