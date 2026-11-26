@@ -1,0 +1,11 @@
+{
+  "place": "none",
+  "title": "Notes",
+  "focusable": true,
+  "palette": [
+    { "title": "Toggle Notes", "command": "layout.toggle", "args": { "id": "notes-panel" }, "words": "notes todo write" },
+    { "title": "New note", "command": "notes.new", "words": "notes write todo" },
+    { "title": "Export notes", "command": "notes.export", "words": "notes backup" },
+    { "title": "Import notes", "command": "notes.import", "words": "notes restore" }
+  ]
+}

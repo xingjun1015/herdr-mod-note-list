@@ -1,0 +1,21 @@
+id = "mod.notes"
+name = "Notes"
+version = "0.1.0"
+min_herdr_version = "0.9.0"
+description = "Notes with colors, tags, todos, pinning, search, export and import. Data lives on the Herdr host."
+platforms = ["linux", "macos", "windows"]
+
+# Opens the notes pane. Bind it to a key in config.toml, see README.
+[[actions]]
+id = "open"
+title = "Open notes"
+contexts = ["workspace"]
+command = ["node", "open.mjs"]
+
+[[panes]]
+id = "notes"
+title = "Notes"
+placement = "popup"
+width = "90%"
+height = "85%"
+command = ["node", "src/app.mjs"]

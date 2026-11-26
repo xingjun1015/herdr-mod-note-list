@@ -1,0 +1,5 @@
+{
+  "global": {
+    "alt-n": "layout.toggle:notes-panel"
+  }
+}
